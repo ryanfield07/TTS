@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @marlble.name %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @marlble.color %>
+</p>
+
+<p>
+  <strong>Person:</strong>
+  <%= @marlble.person %>
+</p>
+
+<%= link_to 'Edit', edit_marlble_path(@marlble) %> |
+<%= link_to 'Back', marlbles_path %>
